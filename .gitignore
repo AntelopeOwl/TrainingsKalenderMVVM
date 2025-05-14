@@ -1,0 +1,47 @@
+# Android / Kotlin
+.gradle/
+.idea/
+*.iml
+*.hprof
+*.stacktrace
+*.log
+*.tmp
+*.apk
+*.ap_    # Android intermediate files
+*.dex
+*.class
+*.jar
+*.zip
+*.so
+*.c
+*.cpp
+*.o
+*.a
+*.out
+*.kotlin_module
+
+# Local configuration
+local.properties
+*.jks
+*.keystore
+
+# Build output (alle Module)
+**/build/
+**/captures/
+**/intermediates/
+**/outputs/
+**/.cxx/
+
+# Jetpack Compose Compiler caches
+**/compose-compiler/
+
+# VS Code (falls verwendet)
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini

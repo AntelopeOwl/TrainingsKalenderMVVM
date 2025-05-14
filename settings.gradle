@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "TrainingsKalender"
+rootProject.name = "TrainingsKalender"
+include(":app", ":domain", ":data", ":ui")
